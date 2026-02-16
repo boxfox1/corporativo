@@ -1247,3 +1247,25 @@ main {
   display: flex;
   pointer-events: auto;
 }
+#nosotros {
+  scroll-margin-top: 90px;
+}
+#redes-sociales {
+  scroll-margin-top: 90px;
+}
+/* NAV fijo (garantizado) */
+.site-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* Compensa la altura del nav para que no tape el contenido */
+body {
+  padding-top: 56px; /* ajusta: 56/64/72 según tu header real */
+}
