@@ -1,50 +1,102 @@
-<!-- index.html -->
-<!doctype html>
-<html lang="es-MX">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Corporativo Boxfox1 | Divisiones, Soluciones y Contacto</title>
-    <meta
-      name="description"
-      content="Corporativo Boxfox1: divisiones (Comerlcial, Servicios Industriales, Web, Academy), soluciones empresariales y contacto directo."
-    />
-    <meta name="robots" content="index,follow" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Corporativo Boxfox1" />
-    <meta
-      property="og:description"
-      content="Divisiones, soluciones, contenido y contacto en un solo lugar."
-    />
+  <title>Boxfox1 Corporativo | Soluciones Industriales, Capacitación y Tecnología</title>
+  <meta
+    name="description"
+    content="Corporativo Boxfox1: soluciones industriales, capacitación, desarrollo web y recursos técnicos para empresas en México."
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://corporativo.boxfox1.com/" />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Boxfox1 Corporativo" />
+  <meta
+    property="og:description"
+    content="Soluciones industriales, capacitación y tecnología para empresas en México."
+  />
+  <meta property="og:url" content="https://corporativo.boxfox1.com/" />
+  <meta property="og:locale" content="es_MX" />
+  <meta
+    property="og:image"
+    content="https://corporativo.boxfox1.com/assets/img/og-image.jpg"
+  />
+  <meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="es_MX" />
 
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link
-      rel="alternate"
-      hreflang="es"
-      href="https://corporativo.boxfox1.com/"
-    />
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="https://corporativo.boxfox1.com/en/"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://corporativo.boxfox1.com/"
-    />
-  </head>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Boxfox1 Corporativo" />
+  <meta
+    name="twitter:description"
+    content="Soluciones industriales, capacitación y tecnología para empresas en México."
+  />
+  <meta
+    name="twitter:image"
+    content="https://corporativo.boxfox1.com/assets/img/og-image.jpg"
+  />
 
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Hreflang -->
+  <link
+    rel="alternate"
+    hreflang="es"
+    href="https://corporativo.boxfox1.com/"
+  />
+  <link
+    rel="alternate"
+    hreflang="en"
+    href="https://corporativo.boxfox1.com/en/"
+  />
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href="https://corporativo.boxfox1.com/"
+  />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Boxfox1",
+      "url": "https://corporativo.boxfox1.com/",
+      "logo": "https://corporativo.boxfox1.com/assets/img/boxfox1.logo.white.svg",
+      "founder": {
+        "@type": "Person",
+        "name": "Joshua García Sandoval"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+52-444-498-9198",
+        "contactType": "customer service",
+        "areaServed": "MX",
+        "availableLanguage": ["es", "en"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/boxfox1industry",
+        "https://blog.boxfox1.com",
+        "https://x.com/Boxfox1industry"
+      ]
+    }
+  </script>
+</head>
   <body>
     <!-- NAV -->
     <header class="site-header" id="top">
@@ -86,11 +138,13 @@
             <a class="nav__link" href="#contacto">Contacto</a>
 
             <div class="nav__tools">
-              <!-- EN link (ajusta ruta si tu inglés vive en /en/) -->
-<a class="btn btn--ghost" href="/en/" lang="en" aria-label="View in English">EN</a>
-
-                EN
-              </a>
+              <a
+                class="btn btn--ghost"
+                href="/en/"
+                lang="en"
+                aria-label="View in English"
+                >EN</a
+              >
             </div>
           </div>
         </div>
@@ -230,7 +284,8 @@
               <div class="card__body">
                 <h3 class="card__title">Servicios Comerciales</h3>
                 <p class="card__text">
-                  Programas de certificación, formación especializada y soluciones normativas para sector comercial y de servicios.
+                  Programas de certificación, formación especializada y
+                  soluciones normativas para sector comercial y de servicios.
                 </p>
                 <span class="card__cta">Explorar →</span>
               </div>
@@ -251,9 +306,11 @@
               />
               <div class="card__body">
                 <h3 class="card__title">Servicios Industriales</h3>
-<p class="card__text">
-Cumplimiento STPS, brigadas multifuncionales, DC-3 y consultoría técnica para operación industrial estructurada y auditable.
-</p>
+                <p class="card__text">
+                  Cumplimiento STPS, brigadas multifuncionales, DC-3 y
+                  consultoría técnica para operación industrial estructurada y
+                  auditable.
+                </p>
                 <span class="card__cta">Explorar →</span>
               </div>
             </a>
@@ -273,9 +330,10 @@ Cumplimiento STPS, brigadas multifuncionales, DC-3 y consultoría técnica para 
               />
               <div class="card__body">
                 <h3 class="card__title">Software & Web</h3>
-<p class="card__text">
-Arquitectura web, desarrollo de sistemas y posicionamiento digital orientado a conversión y resultados medibles.
-</p>
+                <p class="card__text">
+                  Arquitectura web, desarrollo de sistemas y posicionamiento
+                  digital orientado a conversión y resultados medibles.
+                </p>
 
                 <span class="card__cta">Explorar →</span>
               </div>
@@ -296,9 +354,11 @@ Arquitectura web, desarrollo de sistemas y posicionamiento digital orientado a c
               />
               <div class="card__body">
                 <h3 class="card__title">Capacitación Virtual</h3>
-<p class="card__text">
-Programas de formación online, evaluación estructurada y emisión de constancias con enfoque en cumplimiento y ejecución práctica.
-</p>
+                <p class="card__text">
+                  Programas de formación online, evaluación estructurada y
+                  emisión de constancias con enfoque en cumplimiento y ejecución
+                  práctica.
+                </p>
 
                 <span class="card__cta">Explorar →</span>
               </div>
@@ -319,79 +379,84 @@ Programas de formación online, evaluación estructurada y emisión de constanci
               />
               <div class="card__body">
                 <h3 class="card__title">Centro de Recursos</h3>
-<p class="card__text">
-Plantillas técnicas, checklists operativos y herramientas descargables diseñadas para estandarizar procesos y mejorar desempeño.
-</p>
+                <p class="card__text">
+                  Plantillas técnicas, checklists operativos y herramientas
+                  descargables diseñadas para estandarizar procesos y mejorar
+                  desempeño.
+                </p>
 
                 <span class="card__cta">Explorar →</span>
               </div>
             </a>
             <a
-  class="card"
-  href="https://maquinados.boxfox1.com"
-  target="_blank"
-  rel="noopener"
->
-  <img
-    class="card__img"
-    src="assets/img/div-maquinados.webp"
-    alt="Imagen de Maquinados Especializados Boxfox1"
-    loading="lazy"
-    decoding="async"
-  />
-  <div class="card__body">
-    <h3 class="card__title">Maquinados Especializados</h3>
-<p class="card__text">
-Fabricación de piezas, ajustes y prototipos con precisión CNC, enfoque en tolerancias críticas y control de calidad industrial.
-</p>
+              class="card"
+              href="https://maquinados.boxfox1.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card__img"
+                src="assets/img/div-maquinados.webp"
+                alt="Imagen de Maquinados Especializados Boxfox1"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Maquinados Especializados</h3>
+                <p class="card__text">
+                  Fabricación de piezas, ajustes y prototipos con precisión CNC,
+                  enfoque en tolerancias críticas y control de calidad
+                  industrial.
+                </p>
 
-    <span class="card__cta">Explorar →</span>
-  </div>
-</a>
-<a
-  class="card"
-  href="https://imprenta.boxfox1.com"
-  target="_blank"
-  rel="noopener"
->
-  <img
-    class="card__img"
-    src="assets/img/div-imprenta.webp"
-    alt="Imagen de Imprenta Industrial Boxfox1"
-    loading="lazy"
-    decoding="async"
-  />
-  <div class="card__body">
-    <h3 class="card__title">Imprenta</h3>
-<p class="card__text">
-Señalización industrial, formatos operativos y materiales técnicos diseñados para estandarización y control en planta.
-</p>
+                <span class="card__cta">Explorar →</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://imprenta.boxfox1.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card__img"
+                src="assets/img/div-imprenta.webp"
+                alt="Imagen de Imprenta Industrial Boxfox1"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Imprenta</h3>
+                <p class="card__text">
+                  Señalización industrial, formatos operativos y materiales
+                  técnicos diseñados para estandarización y control en planta.
+                </p>
 
-    <span class="card__cta">Explorar →</span>
-  </div>
-</a>
-<a
-  class="card"
-  href="https://clientes.boxfox1.com/"
-  target="_blank"
-  rel="noopener"
->
-  <img
-    class="card__img"
-    src="assets/img/div-clientes.jpg"
-    alt="Portal de clientes Boxfox1: acceso a eCards, DC-3, registros y evidencia por cuenta"
-    loading="lazy"
-    decoding="async"
-  />
-  <div class="card__body">
-    <h3 class="card__title">Portal de Clientes</h3>
-    <p class="card__text">
-      Acceso por cuenta a eCards, DC-3, constancias, registros y evidencia del servicio con seguimiento y trazabilidad.
-    </p>
-    <span class="card__cta">Explorar →</span>
-  </div>
-</a>
-
+                <span class="card__cta">Explorar →</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://clientes.boxfox1.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card__img"
+                src="assets/img/div-clientes.jpg"
+                alt="Portal de clientes Boxfox1: acceso a eCards, DC-3, registros y evidencia por cuenta"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Portal de Clientes</h3>
+                <p class="card__text">
+                  Acceso por cuenta a eCards, DC-3, constancias, registros y
+                  evidencia del servicio con seguimiento y trazabilidad.
+                </p>
+                <span class="card__cta">Explorar →</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -527,14 +592,15 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
           </div>
 
           <div class="banner__cta">
-<a class="btn btn--outline"
-   href="https://prehispanico.boxfox1.com"
-   target="_blank"
-   rel="noopener"
-   aria-label="Explorar identidad académica Boxfox1">
-   Saber más →
-</a>
-
+            <a
+              class="btn btn--outline"
+              href="https://prehispanico.boxfox1.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Explorar identidad académica Boxfox1"
+            >
+              Saber más →
+            </a>
           </div>
         </div>
       </section>
@@ -662,7 +728,8 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             <article class="ibmItem">
               <h3 class="ibmItem__title">Reporte de incidentes laborales</h3>
               <p class="ibmItem__text">
-                Cifras de referencia para dimensionar riesgo, priorizar controles y sostener evidencia.
+                Cifras de referencia para dimensionar riesgo, priorizar
+                controles y sostener evidencia.
               </p>
               <a
                 class="ibmItem__link"
@@ -677,7 +744,8 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             <article class="ibmItem">
               <h3 class="ibmItem__title">Lista de cursos para la industria</h3>
               <p class="ibmItem__text">
-                Brigadas multifuncionales, normatividad mexicana, incendios entre otros.
+                Brigadas multifuncionales, normatividad mexicana, incendios
+                entre otros.
               </p>
               <a
                 class="ibmItem__link"
@@ -690,9 +758,12 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             </article>
 
             <article class="ibmItem">
-              <h3 class="ibmItem__title">Capacitación para Escuelas & Hospitales</h3>
+              <h3 class="ibmItem__title">
+                Capacitación para Escuelas & Hospitales
+              </h3>
               <p class="ibmItem__text">
-                Prevención, evidencia y preparación para revisiones de autoridad.
+                Prevención, evidencia y preparación para revisiones de
+                autoridad.
               </p>
               <a
                 class="ibmItem__link"
@@ -707,7 +778,8 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             <article class="ibmItem">
               <h3 class="ibmItem__title">Tecnología con propósito</h3>
               <p class="ibmItem__text">
-                En Boxfox1 creemos que el conocimiento técnico también puede apoyar a la sociedad.
+                En Boxfox1 creemos que el conocimiento técnico también puede
+                apoyar a la sociedad.
               </p>
               <a
                 class="ibmItem__link"
@@ -720,9 +792,12 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             </article>
 
             <article class="ibmItem">
-              <h3 class="ibmItem__title">Porque lo técnico puede ser bello también</h3>
+              <h3 class="ibmItem__title">
+                Porque lo técnico puede ser bello también
+              </h3>
               <p class="ibmItem__text">
-                Breitling ha sido anunciada como Socio Oficial de Relojes de Aston Martin.
+                Breitling ha sido anunciada como Socio Oficial de Relojes de
+                Aston Martin.
               </p>
               <a
                 class="ibmItem__link"
@@ -737,7 +812,8 @@ Señalización industrial, formatos operativos y materiales técnicos diseñados
             <article class="ibmItem">
               <h3 class="ibmItem__title">Impresión con sentido</h3>
               <p class="ibmItem__text">
-                Señalética, etiquetas, identificación visual y materiales internos listos para uso diario..
+                Señalética, etiquetas, identificación visual y materiales
+                internos listos para uso diario..
               </p>
               <a
                 class="ibmItem__link"
